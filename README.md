@@ -22,7 +22,7 @@ pod 'LXMKit'
 
 ## Author
 
-billthaslu, billthaslu@tencent.com
+Phelthas, billthas@gmail.com
 
 ## License
 
