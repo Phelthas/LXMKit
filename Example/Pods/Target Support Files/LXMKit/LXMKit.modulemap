@@ -1,0 +1,6 @@
+framework module LXMKit {
+  umbrella header "LXMKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
