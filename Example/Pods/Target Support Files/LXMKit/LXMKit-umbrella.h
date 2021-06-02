@@ -11,6 +11,10 @@
 #endif
 
 #import "LXMDeviceUtil.h"
+#import "LXMScreenSizeDefines.h"
+#import "LXMAspectUtil.h"
+#import "LXMDemoEntranceModel.h"
+#import "LXMDemoListViewController.h"
 
 FOUNDATION_EXPORT double LXMKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char LXMKitVersionString[];
