@@ -7,26 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C6FA4290B422A58F35D0C4E03890679 /* LXMKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7400F09EA8D8EBD4E55106F6228121 /* LXMKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16A89146632A320018625084141ED36D /* UITableView+RegisterAndDequeue.m in Sources */ = {isa = PBXBuildFile; fileRef = A46E16A22A4F1E8B6B45FB267685A3C7 /* UITableView+RegisterAndDequeue.m */; };
+		0DDB466873C266292AFC4DE480258584 /* LXMDemoListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DD3DD023CE392B0D6E238A22890C85E1 /* LXMDemoListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12932E9997867001B968EBA606D56E0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1813DF29C9FCFFC14A2AE3DFCB89268A /* LXMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B725324603F63FC37DA6B1DE31294A /* LXMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22F833C9906EC8198673A352488E944A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		432FF4CE267C337100C68183 /* UICollectionView+RegisterAndDequeue.h in Headers */ = {isa = PBXBuildFile; fileRef = 432FF4CC267C337100C68183 /* UICollectionView+RegisterAndDequeue.h */; };
-		432FF4CF267C337100C68183 /* UICollectionView+RegisterAndDequeue.m in Sources */ = {isa = PBXBuildFile; fileRef = 432FF4CD267C337100C68183 /* UICollectionView+RegisterAndDequeue.m */; };
+		4232A3ED2CA0EF586E6E0D574058C792 /* LXMScreenSizeDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E6C5D3C56672E7FEC62AC2ED0263C7BA /* LXMScreenSizeDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		458656A19D7A975C353FB32F1E6A2B57 /* LXMDeviceUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3749EDDB19B0E8892BD50403E6287E /* LXMDeviceUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60062520DC656E9DCA6C010F570CBD38 /* LXMDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC29E47FCB9AD6DB602B4789801A055 /* LXMDeviceUtil.m */; };
+		624D345F0AA7A336C68CBC5F3C7DA7E0 /* UICollectionView+RegisterAndDequeue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5CADB0D474FE6D6F93CEE098AA719E /* UICollectionView+RegisterAndDequeue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7363D27FE168D60DA30E0651F61267E6 /* LXMAspectUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C691C439E647B1719DC9D39943A01B0 /* LXMAspectUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73757DD1FF10074E7C04F44ABD5B1BE9 /* Pods-LXMKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D179237D4BC4F83150B249A8AF75192A /* Pods-LXMKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		788BA1EDC484F064F908E080528DE295 /* LXMDeviceUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 072F9621619AEEB67BF8E35A9057F493 /* LXMDeviceUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B5CC5C85A875DD6D8EAAE21CC5F18A9 /* UITableView+RegisterAndDequeue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C2B10BB3676C20BA946C339D87EBC87 /* UITableView+RegisterAndDequeue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B80EA3738E76526131BECBFFD649684 /* LXMKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 074FC0A2EEA6B85E0FF26036C57EEFC4 /* LXMKit-dummy.m */; };
-		808936DBAD1EC4A9F8922837C8D94EED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8376853510DF340A80D94DD1AC932EC0 /* LXMDemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5356CAD8F37E5DFE6237A0D7DC4A1CBF /* LXMDemoListViewController.m */; };
-		9085900228E5A2AED7F4D763774DD815 /* LXMDemoListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E17CDB1C0804D32DCB9B8DC7864A8682 /* LXMDemoListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79036E35D12B29B3E3E338EB15D9DEBF /* LXMDemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72D004111E88B769E33C4C360E23182 /* LXMDemoListViewController.m */; };
+		79669C4046D581B47B6E4A7BDF3C9920 /* LXMAspectUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E5900C59C7C10AFC5142206990B384 /* LXMAspectUtil.m */; };
+		868C072AD7EEF9CB2043E7BCAEBDC2DD /* LXMKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C80A9E21A2D82C6D75DB93BAB1751D9 /* LXMKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91B70811A3DFEFCCE4E7CD38BB391905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9857B5308D66ABD270163CCECA76C805 /* LXMAspectUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C366C1C35F4CE32142B1592CEAA5525 /* LXMAspectUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A302C55EA8DCDEB8B0F8BAFAC6FEC490 /* Pods-LXMKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5869F04803FCC94DF33123160FA695 /* Pods-LXMKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3BB57C0045DA6927B24E0EB37DD8A92 /* LXMScreenSizeDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E0C6ADBC674299E85D43313D229655 /* LXMScreenSizeDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B403CF533900D8DCFE07E463A97AA15A /* LXMAspectUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 018B1E9CCA80A3319A9A3277078B7BF8 /* LXMAspectUtil.m */; };
 		CC76C8207D9E4B5409A5E2F566FB9942 /* Pods-LXMKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BABB258B96A252BAC2232F71572792 /* Pods-LXMKit_Tests-dummy.m */; };
 		D04F8FD40432A9AD5D547AC4FD23091A /* Pods-LXMKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1AF37D9062C72E69F5AF0B1FD8AF61 /* Pods-LXMKit_Example-dummy.m */; };
-		ED127C2DD83A417D4D5391C36041CAA3 /* LXMDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F47DC49BFE117D569A1CB85310674D15 /* LXMDeviceUtil.m */; };
+		D365F1D30668ADCFB49A320326BDBA55 /* UITableView+RegisterAndDequeue.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0A8379913F87684FF2F613D45F58BD /* UITableView+RegisterAndDequeue.m */; };
+		D91BE864D9DDA568878F5D650053B722 /* LXMKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1DCACB508AC785CAC3D26DAC628A0C /* LXMKit-dummy.m */; };
+		DB6C059A52E0180E7A7FC4B7873F7226 /* UICollectionView+RegisterAndDequeue.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FAA3620866F75B69B492B7FD1E9A24 /* UICollectionView+RegisterAndDequeue.m */; };
+		EC6914A2B1365CD21958FC0E5D9E6EB6 /* UIView+Position.h in Headers */ = {isa = PBXBuildFile; fileRef = 882D6B2DBA078D2404750B7AC54A1156 /* UIView+Position.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFC3869546BF0C032B836D2B71460CB3 /* UITableView+RegisterAndDequeue.h in Headers */ = {isa = PBXBuildFile; fileRef = 90EC24E22091F5342269A1432C43018D /* UITableView+RegisterAndDequeue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F56DC543FDFFD90054DADA3688AEA3D5 /* UIView+Position.m in Sources */ = {isa = PBXBuildFile; fileRef = 67435D694D07656A49670DEDFE4051E6 /* UIView+Position.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,49 +50,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		018B1E9CCA80A3319A9A3277078B7BF8 /* LXMAspectUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXMAspectUtil.m; sourceTree = "<group>"; };
-		072F9621619AEEB67BF8E35A9057F493 /* LXMDeviceUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXMDeviceUtil.h; sourceTree = "<group>"; };
-		074FC0A2EEA6B85E0FF26036C57EEFC4 /* LXMKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXMKit-dummy.m"; sourceTree = "<group>"; };
-		0F7400F09EA8D8EBD4E55106F6228121 /* LXMKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXMKit-umbrella.h"; sourceTree = "<group>"; };
+		00FAA3620866F75B69B492B7FD1E9A24 /* UICollectionView+RegisterAndDequeue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+RegisterAndDequeue.m"; sourceTree = "<group>"; };
 		16BABB258B96A252BAC2232F71572792 /* Pods-LXMKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXMKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		1B5797037CFCD533AEC067A1DC910A4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		21E31264A5AB6B1E183ADA31D4AFA5FA /* LXMKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXMKit-Info.plist"; sourceTree = "<group>"; };
-		2C366C1C35F4CE32142B1592CEAA5525 /* LXMAspectUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXMAspectUtil.h; sourceTree = "<group>"; };
-		2EE422C9F3548ABD113422334EF26270 /* LXMKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXMKit.release.xcconfig; sourceTree = "<group>"; };
+		1C80A9E21A2D82C6D75DB93BAB1751D9 /* LXMKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXMKit-umbrella.h"; sourceTree = "<group>"; };
+		2064E12C3D0839454522726E07D05719 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2CEC27F7E4865BC123AF3FE6586D6AC0 /* LXMKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXMKit.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3C2B10BB3676C20BA946C339D87EBC87 /* UITableView+RegisterAndDequeue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+RegisterAndDequeue.h"; sourceTree = "<group>"; };
+		3A5CADB0D474FE6D6F93CEE098AA719E /* UICollectionView+RegisterAndDequeue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+RegisterAndDequeue.h"; sourceTree = "<group>"; };
+		3C691C439E647B1719DC9D39943A01B0 /* LXMAspectUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXMAspectUtil.h; sourceTree = "<group>"; };
+		3CFC18913E52E659AEB2CA402F48DB8B /* LXMKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXMKit-prefix.pch"; sourceTree = "<group>"; };
 		3D91D5DC423F5440553004D7F9E53403 /* Pods-LXMKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXMKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4112940241F0A210E672610CFDE03EAF /* Pods-LXMKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXMKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		41F08D254FDB60ADDA00771B4D390E5C /* Pods-LXMKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXMKit_Example-Info.plist"; sourceTree = "<group>"; };
-		432FF4CC267C337100C68183 /* UICollectionView+RegisterAndDequeue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+RegisterAndDequeue.h"; sourceTree = "<group>"; };
-		432FF4CD267C337100C68183 /* UICollectionView+RegisterAndDequeue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+RegisterAndDequeue.m"; sourceTree = "<group>"; };
-		5356CAD8F37E5DFE6237A0D7DC4A1CBF /* LXMDemoListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXMDemoListViewController.m; sourceTree = "<group>"; };
+		42E5900C59C7C10AFC5142206990B384 /* LXMAspectUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXMAspectUtil.m; sourceTree = "<group>"; };
 		5D1AF37D9062C72E69F5AF0B1FD8AF61 /* Pods-LXMKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXMKit_Example-dummy.m"; sourceTree = "<group>"; };
+		64B725324603F63FC37DA6B1DE31294A /* LXMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXMKit.h; path = LXMKit/LXMKit.h; sourceTree = "<group>"; };
+		67435D694D07656A49670DEDFE4051E6 /* UIView+Position.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Position.m"; sourceTree = "<group>"; };
+		6A1DCACB508AC785CAC3D26DAC628A0C /* LXMKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXMKit-dummy.m"; sourceTree = "<group>"; };
 		745E437BBE2EBCEDC3118BE8A1DF602D /* Pods-LXMKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXMKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		74AC3F5D8BEF32695CE54B282514DFFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7B5122FC99DC8138115934A653EA4006 /* Pods-LXMKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXMKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7CB47F1CC411C735DD57EDB80DC1D39A /* LXMKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXMKit.modulemap; sourceTree = "<group>"; };
+		882D6B2DBA078D2404750B7AC54A1156 /* UIView+Position.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Position.h"; sourceTree = "<group>"; };
 		8F8112A4F626007736E3AAFEF6E44F3B /* Pods-LXMKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXMKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8FC29E47FCB9AD6DB602B4789801A055 /* LXMDeviceUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXMDeviceUtil.m; sourceTree = "<group>"; };
+		90EC24E22091F5342269A1432C43018D /* UITableView+RegisterAndDequeue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+RegisterAndDequeue.h"; sourceTree = "<group>"; };
 		90ED30BCB409AE0B86F830F750F34AA4 /* Pods-LXMKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXMKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		946F4B380BF24FE77C8978872188B18A /* Pods-LXMKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXMKit_Tests.modulemap"; sourceTree = "<group>"; };
 		97183D819106C7F4BCE4F30BB5E16035 /* Pods-LXMKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXMKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A10CEE9BB1D00AA6D2BDA69004F369DD /* Pods-LXMKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXMKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A46E16A22A4F1E8B6B45FB267685A3C7 /* UITableView+RegisterAndDequeue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+RegisterAndDequeue.m"; sourceTree = "<group>"; };
-		AAE3CF28036ED6A9EC5E41894CCBCD9C /* LXMKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LXMKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BA2C1D310545B67BD7265CC0285DA087 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C10DEDF9648AB62427C2F619AB04B556 /* Pods_LXMKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXMKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2A62CBCFFC5C66683F7B8C7EB9FD896 /* Pods_LXMKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXMKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6D89D3A35F8BF0F00C281795B1D3BA /* LXMKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXMKit.release.xcconfig; sourceTree = "<group>"; };
+		BF3749EDDB19B0E8892BD50403E6287E /* LXMDeviceUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXMDeviceUtil.h; sourceTree = "<group>"; };
+		C10DEDF9648AB62427C2F619AB04B556 /* Pods_LXMKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LXMKit_Example.framework; path = "Pods-LXMKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A62CBCFFC5C66683F7B8C7EB9FD896 /* Pods_LXMKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LXMKit_Tests.framework; path = "Pods-LXMKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5869F04803FCC94DF33123160FA695 /* Pods-LXMKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXMKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		D179237D4BC4F83150B249A8AF75192A /* Pods-LXMKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXMKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D7E0C6ADBC674299E85D43313D229655 /* LXMScreenSizeDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXMScreenSizeDefines.h; sourceTree = "<group>"; };
+		D72D004111E88B769E33C4C360E23182 /* LXMDemoListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXMDemoListViewController.m; sourceTree = "<group>"; };
 		D8EC2BC622D7CB9EEA7D952C67CF854F /* Pods-LXMKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXMKit_Example.modulemap"; sourceTree = "<group>"; };
+		DD3DD023CE392B0D6E238A22890C85E1 /* LXMDemoListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXMDemoListViewController.h; sourceTree = "<group>"; };
 		DD62EEE3A69815EF119AEB23CCC7F3E8 /* Pods-LXMKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXMKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E14B42AD7882C35393BCFCB09804DFBF /* LXMKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXMKit.debug.xcconfig; sourceTree = "<group>"; };
-		E17CDB1C0804D32DCB9B8DC7864A8682 /* LXMDemoListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXMDemoListViewController.h; sourceTree = "<group>"; };
+		DE15F714A304FB44984526D6F163A890 /* LXMKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LXMKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E3A848D8EF61B936D3C62BB7171328AD /* Pods-LXMKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXMKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		E76D84784DD036D94F2CE1300260583C /* LXMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LXMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F47DC49BFE117D569A1CB85310674D15 /* LXMDeviceUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXMDeviceUtil.m; sourceTree = "<group>"; };
-		FE9748FB1975E6D7A3E6C158D1E25E58 /* LXMKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXMKit-prefix.pch"; sourceTree = "<group>"; };
+		E6C5D3C56672E7FEC62AC2ED0263C7BA /* LXMScreenSizeDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXMScreenSizeDefines.h; sourceTree = "<group>"; };
+		E76D84784DD036D94F2CE1300260583C /* LXMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LXMKit.framework; path = LXMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48506C74217E287290147E8A959A46B /* LXMKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXMKit.debug.xcconfig; sourceTree = "<group>"; };
+		F76981552D554DBE0B747FFB32B9069F /* LXMKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXMKit-Info.plist"; sourceTree = "<group>"; };
+		FC0A8379913F87684FF2F613D45F58BD /* UITableView+RegisterAndDequeue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+RegisterAndDequeue.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,27 +115,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99C3CF1F0A95E32EF2F6494E062AFA64 /* Frameworks */ = {
+		C1F4A452FD9E2B3E9B3B383B2B10940F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				808936DBAD1EC4A9F8922837C8D94EED /* Foundation.framework in Frameworks */,
+				12932E9997867001B968EBA606D56E0B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		040AC2505C198F7CAA54377689E4C23A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BA2C1D310545B67BD7265CC0285DA087 /* LICENSE */,
-				AAE3CF28036ED6A9EC5E41894CCBCD9C /* LXMKit.podspec */,
-				1B5797037CFCD533AEC067A1DC910A4A /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		18074FE78F8752152D90CF8E1A52FEF4 /* Pods-LXMKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,27 +143,39 @@
 			path = "Target Support Files/Pods-LXMKit_Example";
 			sourceTree = "<group>";
 		};
-		2107451F427945CA4DF6731024624385 /* Support Files */ = {
+		2A6241AC41EF58A5054445DE2953ADF0 /* Geometry */ = {
 			isa = PBXGroup;
 			children = (
-				7CB47F1CC411C735DD57EDB80DC1D39A /* LXMKit.modulemap */,
-				074FC0A2EEA6B85E0FF26036C57EEFC4 /* LXMKit-dummy.m */,
-				21E31264A5AB6B1E183ADA31D4AFA5FA /* LXMKit-Info.plist */,
-				FE9748FB1975E6D7A3E6C158D1E25E58 /* LXMKit-prefix.pch */,
-				0F7400F09EA8D8EBD4E55106F6228121 /* LXMKit-umbrella.h */,
-				E14B42AD7882C35393BCFCB09804DFBF /* LXMKit.debug.xcconfig */,
-				2EE422C9F3548ABD113422334EF26270 /* LXMKit.release.xcconfig */,
+				3C691C439E647B1719DC9D39943A01B0 /* LXMAspectUtil.h */,
+				42E5900C59C7C10AFC5142206990B384 /* LXMAspectUtil.m */,
+			);
+			name = Geometry;
+			path = LXMKit/Geometry;
+			sourceTree = "<group>";
+		};
+		2DBCAC64D55EF5FDB1F6867D18E55729 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CEC27F7E4865BC123AF3FE6586D6AC0 /* LXMKit.modulemap */,
+				6A1DCACB508AC785CAC3D26DAC628A0C /* LXMKit-dummy.m */,
+				F76981552D554DBE0B747FFB32B9069F /* LXMKit-Info.plist */,
+				3CFC18913E52E659AEB2CA402F48DB8B /* LXMKit-prefix.pch */,
+				1C80A9E21A2D82C6D75DB93BAB1751D9 /* LXMKit-umbrella.h */,
+				F48506C74217E287290147E8A959A46B /* LXMKit.debug.xcconfig */,
+				BD6D89D3A35F8BF0F00C281795B1D3BA /* LXMKit.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LXMKit";
 			sourceTree = "<group>";
 		};
-		69D60AC97113172B4C3EEFFCD0A6A5C4 /* Development Pods */ = {
+		3639656DA871EF37CF28D7D587887251 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				F075D61554574630E1F8D77CE5BCB80D /* LXMKit */,
+				DD3DD023CE392B0D6E238A22890C85E1 /* LXMDemoListViewController.h */,
+				D72D004111E88B769E33C4C360E23182 /* LXMDemoListViewController.m */,
 			);
-			name = "Development Pods";
+			name = Demo;
+			path = LXMKit/Demo;
 			sourceTree = "<group>";
 		};
 		719AA22734AE2A7D7E6733C9D7251342 /* Pods-LXMKit_Tests */ = {
@@ -186,25 +194,33 @@
 			path = "Target Support Files/Pods-LXMKit_Tests";
 			sourceTree = "<group>";
 		};
-		7381A9BEDA8EC640126E9816405E1AE9 /* Device */ = {
+		7699B52549FD5791E454AF7FEE69EB6C /* LXMKit */ = {
 			isa = PBXGroup;
 			children = (
-				072F9621619AEEB67BF8E35A9057F493 /* LXMDeviceUtil.h */,
-				F47DC49BFE117D569A1CB85310674D15 /* LXMDeviceUtil.m */,
-				D7E0C6ADBC674299E85D43313D229655 /* LXMScreenSizeDefines.h */,
+				64B725324603F63FC37DA6B1DE31294A /* LXMKit.h */,
+				90EABC5199BF3B64CDDF8EFF043FF6B1 /* Category */,
+				3639656DA871EF37CF28D7D587887251 /* Demo */,
+				AA5375F8E8C7E3457ABECAE948C4BC92 /* Device */,
+				2A6241AC41EF58A5054445DE2953ADF0 /* Geometry */,
+				D532446853D2F55644E01B55D428E7C3 /* Pod */,
+				2DBCAC64D55EF5FDB1F6867D18E55729 /* Support Files */,
 			);
-			name = Device;
-			path = LXMKit/Device;
+			name = LXMKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		7F11B0F805BCAB4EA5A68FC6BAD166D3 /* Demo */ = {
+		90EABC5199BF3B64CDDF8EFF043FF6B1 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				E17CDB1C0804D32DCB9B8DC7864A8682 /* LXMDemoListViewController.h */,
-				5356CAD8F37E5DFE6237A0D7DC4A1CBF /* LXMDemoListViewController.m */,
+				3A5CADB0D474FE6D6F93CEE098AA719E /* UICollectionView+RegisterAndDequeue.h */,
+				00FAA3620866F75B69B492B7FD1E9A24 /* UICollectionView+RegisterAndDequeue.m */,
+				90EC24E22091F5342269A1432C43018D /* UITableView+RegisterAndDequeue.h */,
+				FC0A8379913F87684FF2F613D45F58BD /* UITableView+RegisterAndDequeue.m */,
+				882D6B2DBA078D2404750B7AC54A1156 /* UIView+Position.h */,
+				67435D694D07656A49670DEDFE4051E6 /* UIView+Position.m */,
 			);
-			name = Demo;
-			path = LXMKit/Demo;
+			name = Category;
+			path = LXMKit/Category;
 			sourceTree = "<group>";
 		};
 		9128B7398D90D621CC4C2091FDDBC8D6 /* Products */ = {
@@ -215,6 +231,17 @@
 				C2A62CBCFFC5C66683F7B8C7EB9FD896 /* Pods_LXMKit_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AA5375F8E8C7E3457ABECAE948C4BC92 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				BF3749EDDB19B0E8892BD50403E6287E /* LXMDeviceUtil.h */,
+				8FC29E47FCB9AD6DB602B4789801A055 /* LXMDeviceUtil.m */,
+				E6C5D3C56672E7FEC62AC2ED0263C7BA /* LXMScreenSizeDefines.h */,
+			);
+			name = Device;
+			path = LXMKit/Device;
 			sourceTree = "<group>";
 		};
 		AE8303B568C1A55F04C7437A9ADB458A /* Targets Support Files */ = {
@@ -234,21 +261,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CECC20A2A2940C682210C9FEE7019B26 /* Geometry */ = {
+		CC1ED2928B399FE7ECF8D3F057763E70 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2C366C1C35F4CE32142B1592CEAA5525 /* LXMAspectUtil.h */,
-				018B1E9CCA80A3319A9A3277078B7BF8 /* LXMAspectUtil.m */,
+				7699B52549FD5791E454AF7FEE69EB6C /* LXMKit */,
 			);
-			name = Geometry;
-			path = LXMKit/Geometry;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				69D60AC97113172B4C3EEFFCD0A6A5C4 /* Development Pods */,
+				CC1ED2928B399FE7ECF8D3F057763E70 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				9128B7398D90D621CC4C2091FDDBC8D6 /* Products */,
 				AE8303B568C1A55F04C7437A9ADB458A /* Targets Support Files */,
@@ -263,35 +288,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F075D61554574630E1F8D77CE5BCB80D /* LXMKit */ = {
+		D532446853D2F55644E01B55D428E7C3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F238574CB0A4E16B80512D789EF2679C /* Category */,
-				7F11B0F805BCAB4EA5A68FC6BAD166D3 /* Demo */,
-				7381A9BEDA8EC640126E9816405E1AE9 /* Device */,
-				CECC20A2A2940C682210C9FEE7019B26 /* Geometry */,
-				040AC2505C198F7CAA54377689E4C23A /* Pod */,
-				2107451F427945CA4DF6731024624385 /* Support Files */,
+				74AC3F5D8BEF32695CE54B282514DFFE /* LICENSE */,
+				DE15F714A304FB44984526D6F163A890 /* LXMKit.podspec */,
+				2064E12C3D0839454522726E07D05719 /* README.md */,
 			);
-			name = LXMKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		F238574CB0A4E16B80512D789EF2679C /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				3C2B10BB3676C20BA946C339D87EBC87 /* UITableView+RegisterAndDequeue.h */,
-				A46E16A22A4F1E8B6B45FB267685A3C7 /* UITableView+RegisterAndDequeue.m */,
-				432FF4CC267C337100C68183 /* UICollectionView+RegisterAndDequeue.h */,
-				432FF4CD267C337100C68183 /* UICollectionView+RegisterAndDequeue.m */,
-			);
-			name = Category;
-			path = LXMKit/Category;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		6EC83A272274D5C013CB7B7E0FFFE945 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7363D27FE168D60DA30E0651F61267E6 /* LXMAspectUtil.h in Headers */,
+				0DDB466873C266292AFC4DE480258584 /* LXMDemoListViewController.h in Headers */,
+				458656A19D7A975C353FB32F1E6A2B57 /* LXMDeviceUtil.h in Headers */,
+				868C072AD7EEF9CB2043E7BCAEBDC2DD /* LXMKit-umbrella.h in Headers */,
+				1813DF29C9FCFFC14A2AE3DFCB89268A /* LXMKit.h in Headers */,
+				4232A3ED2CA0EF586E6E0D574058C792 /* LXMScreenSizeDefines.h in Headers */,
+				624D345F0AA7A336C68CBC5F3C7DA7E0 /* UICollectionView+RegisterAndDequeue.h in Headers */,
+				EFC3869546BF0C032B836D2B71460CB3 /* UITableView+RegisterAndDequeue.h in Headers */,
+				EC6914A2B1365CD21958FC0E5D9E6EB6 /* UIView+Position.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8B4F2831AB97B18D895FEF5E8F01377C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,20 +330,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A302C55EA8DCDEB8B0F8BAFAC6FEC490 /* Pods-LXMKit_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2192C465AD353155D30C0BE735451EE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9857B5308D66ABD270163CCECA76C805 /* LXMAspectUtil.h in Headers */,
-				432FF4CE267C337100C68183 /* UICollectionView+RegisterAndDequeue.h in Headers */,
-				9085900228E5A2AED7F4D763774DD815 /* LXMDemoListViewController.h in Headers */,
-				788BA1EDC484F064F908E080528DE295 /* LXMDeviceUtil.h in Headers */,
-				0C6FA4290B422A58F35D0C4E03890679 /* LXMKit-umbrella.h in Headers */,
-				A3BB57C0045DA6927B24E0EB37DD8A92 /* LXMScreenSizeDefines.h in Headers */,
-				7B5CC5C85A875DD6D8EAAE21CC5F18A9 /* UITableView+RegisterAndDequeue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,12 +357,12 @@
 		};
 		84A9F87A52CB4284559242178975B8E5 /* LXMKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC4691EDBED8D98B9A1B3264C51BB0A6 /* Build configuration list for PBXNativeTarget "LXMKit" */;
+			buildConfigurationList = CA396D9A72CCA5EA437142DCB4D8376F /* Build configuration list for PBXNativeTarget "LXMKit" */;
 			buildPhases = (
-				F2192C465AD353155D30C0BE735451EE /* Headers */,
-				F8A88134E0B2E30F96521DF1E8B88406 /* Sources */,
-				99C3CF1F0A95E32EF2F6494E062AFA64 /* Frameworks */,
-				078CEE8EA371CF6CEF25E245F931986C /* Resources */,
+				6EC83A272274D5C013CB7B7E0FFFE945 /* Headers */,
+				F401A42D36AF1475AB58F5B810FEC038 /* Sources */,
+				C1F4A452FD9E2B3E9B3B383B2B10940F /* Frameworks */,
+				2B7212F956062B6F31B011B16DA36A2B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -411,7 +422,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		078CEE8EA371CF6CEF25E245F931986C /* Resources */ = {
+		2B7212F956062B6F31B011B16DA36A2B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,16 +462,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8A88134E0B2E30F96521DF1E8B88406 /* Sources */ = {
+		F401A42D36AF1475AB58F5B810FEC038 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B403CF533900D8DCFE07E463A97AA15A /* LXMAspectUtil.m in Sources */,
-				432FF4CF267C337100C68183 /* UICollectionView+RegisterAndDequeue.m in Sources */,
-				8376853510DF340A80D94DD1AC932EC0 /* LXMDemoListViewController.m in Sources */,
-				ED127C2DD83A417D4D5391C36041CAA3 /* LXMDeviceUtil.m in Sources */,
-				7B80EA3738E76526131BECBFFD649684 /* LXMKit-dummy.m in Sources */,
-				16A89146632A320018625084141ED36D /* UITableView+RegisterAndDequeue.m in Sources */,
+				79669C4046D581B47B6E4A7BDF3C9920 /* LXMAspectUtil.m in Sources */,
+				79036E35D12B29B3E3E338EB15D9DEBF /* LXMDemoListViewController.m in Sources */,
+				60062520DC656E9DCA6C010F570CBD38 /* LXMDeviceUtil.m in Sources */,
+				D91BE864D9DDA568878F5D650053B722 /* LXMKit-dummy.m in Sources */,
+				DB6C059A52E0180E7A7FC4B7873F7226 /* UICollectionView+RegisterAndDequeue.m in Sources */,
+				D365F1D30668ADCFB49A320326BDBA55 /* UITableView+RegisterAndDequeue.m in Sources */,
+				F56DC543FDFFD90054DADA3688AEA3D5 /* UIView+Position.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +494,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0A9E6C27F9B1446DBBE33906E03E7537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F48506C74217E287290147E8A959A46B /* LXMKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXMKit/LXMKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXMKit/LXMKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LXMKit/LXMKit.modulemap";
+				PRODUCT_MODULE_NAME = LXMKit;
+				PRODUCT_NAME = LXMKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		17FB053B16F9F4C75093D2C93510EA47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90ED30BCB409AE0B86F830F750F34AA4 /* Pods-LXMKit_Tests.release.xcconfig */;
@@ -669,7 +712,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -739,9 +783,9 @@
 			};
 			name = Debug;
 		};
-		995753EC050190AADE5D4539DCF161B3 /* Release */ = {
+		FB3E461B03E917B7FD5DD9EB97341ACD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EE422C9F3548ABD113422334EF26270 /* LXMKit.release.xcconfig */;
+			baseConfigurationReference = BD6D89D3A35F8BF0F00C281795B1D3BA /* LXMKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -770,37 +814,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		EC391BC65E6BB86C0FFCF20131028DA8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E14B42AD7882C35393BCFCB09804DFBF /* LXMKit.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LXMKit/LXMKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LXMKit/LXMKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LXMKit/LXMKit.modulemap";
-				PRODUCT_MODULE_NAME = LXMKit;
-				PRODUCT_NAME = LXMKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -832,11 +845,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC4691EDBED8D98B9A1B3264C51BB0A6 /* Build configuration list for PBXNativeTarget "LXMKit" */ = {
+		CA396D9A72CCA5EA437142DCB4D8376F /* Build configuration list for PBXNativeTarget "LXMKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC391BC65E6BB86C0FFCF20131028DA8 /* Debug */,
-				995753EC050190AADE5D4539DCF161B3 /* Release */,
+				0A9E6C27F9B1446DBBE33906E03E7537 /* Debug */,
+				FB3E461B03E917B7FD5DD9EB97341ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
