@@ -21,6 +21,7 @@
   "source_files": [
     "LXMKit/Device/**/*",
     "LXMKit/Geometry/**/*",
-    "LXMKit/Demo/**/*"
+    "LXMKit/Demo/**/*",
+    "LXMKit/Category/**/*"
   ]
 }

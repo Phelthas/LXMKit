@@ -15,6 +15,7 @@
 #import "LXMAspectUtil.h"
 #import "LXMDemoEntranceModel.h"
 #import "LXMDemoListViewController.h"
+#import "UITableView+RegisterAndDequeue.h"
 
 FOUNDATION_EXPORT double LXMKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char LXMKitVersionString[];
