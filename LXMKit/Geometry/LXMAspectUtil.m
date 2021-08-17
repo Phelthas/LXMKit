@@ -48,9 +48,22 @@ static inline CGFloat LXMAspectFitScale(CGSize srcSize, CGSize dstSize) {
     return [self aspectSizeForType:UIViewContentModeScaleAspectFill sourceSize:srcSize destinationSize:dstSize];
 }
 
++ (CGSize)normalizedAspectFillSizeForSourceSize:(CGSize)srcSize destinationSize:(CGSize)dstSize {
+    CGSize aspectFillSize = [self aspectFillSizeForSourceSize:srcSize destinationSize:dstSize];
+    if (aspectFillSize.width == 0 || aspectFillSize.height == 0) {
+        return CGSizeZero;
+    }
+    return CGSizeMake(dstSize.width / aspectFillSize.width, dstSize.height / aspectFillSize.height);
+}
+
+
 + (CGSize)aspectFitSizeForSourceSize:(CGSize)srcSize destinationSize:(CGSize)dstSize {
     return [self aspectSizeForType:UIViewContentModeScaleAspectFit sourceSize:srcSize destinationSize:dstSize];
 }
+
+
+
+#pragma mark - Private
 
 + (CGSize)aspectSizeForType:(UIViewContentMode)type sourceSize:(CGSize)srcSize destinationSize:(CGSize)dstSize {
     if (srcSize.width == 0 || srcSize.height == 0 || dstSize.width == 0 || dstSize.height == 0) {
@@ -66,5 +79,7 @@ static inline CGFloat LXMAspectFitScale(CGSize srcSize, CGSize dstSize) {
     CGFloat newHeight = srcSize.height * scale;
     return CGSizeMake(newWidth, newHeight);
 }
+
+
 
 @end
