@@ -12,6 +12,8 @@
 		1813DF29C9FCFFC14A2AE3DFCB89268A /* LXMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B725324603F63FC37DA6B1DE31294A /* LXMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22F833C9906EC8198673A352488E944A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4232A3ED2CA0EF586E6E0D574058C792 /* LXMScreenSizeDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E6C5D3C56672E7FEC62AC2ED0263C7BA /* LXMScreenSizeDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		436AA96C26806828004C0E45 /* NSArray+LXMSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 436AA96A26806828004C0E45 /* NSArray+LXMSafe.h */; };
+		436AA96D26806828004C0E45 /* NSArray+LXMSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 436AA96B26806828004C0E45 /* NSArray+LXMSafe.m */; };
 		458656A19D7A975C353FB32F1E6A2B57 /* LXMDeviceUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3749EDDB19B0E8892BD50403E6287E /* LXMDeviceUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60062520DC656E9DCA6C010F570CBD38 /* LXMDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC29E47FCB9AD6DB602B4789801A055 /* LXMDeviceUtil.m */; };
 		624D345F0AA7A336C68CBC5F3C7DA7E0 /* UICollectionView+RegisterAndDequeue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5CADB0D474FE6D6F93CEE098AA719E /* UICollectionView+RegisterAndDequeue.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,7 +55,7 @@
 		00FAA3620866F75B69B492B7FD1E9A24 /* UICollectionView+RegisterAndDequeue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+RegisterAndDequeue.m"; sourceTree = "<group>"; };
 		16BABB258B96A252BAC2232F71572792 /* Pods-LXMKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXMKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		1C80A9E21A2D82C6D75DB93BAB1751D9 /* LXMKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXMKit-umbrella.h"; sourceTree = "<group>"; };
-		2064E12C3D0839454522726E07D05719 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2064E12C3D0839454522726E07D05719 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2CEC27F7E4865BC123AF3FE6586D6AC0 /* LXMKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXMKit.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3A5CADB0D474FE6D6F93CEE098AA719E /* UICollectionView+RegisterAndDequeue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+RegisterAndDequeue.h"; sourceTree = "<group>"; };
@@ -63,12 +65,14 @@
 		4112940241F0A210E672610CFDE03EAF /* Pods-LXMKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXMKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		41F08D254FDB60ADDA00771B4D390E5C /* Pods-LXMKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXMKit_Example-Info.plist"; sourceTree = "<group>"; };
 		42E5900C59C7C10AFC5142206990B384 /* LXMAspectUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXMAspectUtil.m; sourceTree = "<group>"; };
+		436AA96A26806828004C0E45 /* NSArray+LXMSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+LXMSafe.h"; sourceTree = "<group>"; };
+		436AA96B26806828004C0E45 /* NSArray+LXMSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LXMSafe.m"; sourceTree = "<group>"; };
 		5D1AF37D9062C72E69F5AF0B1FD8AF61 /* Pods-LXMKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXMKit_Example-dummy.m"; sourceTree = "<group>"; };
 		64B725324603F63FC37DA6B1DE31294A /* LXMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXMKit.h; path = LXMKit/LXMKit.h; sourceTree = "<group>"; };
 		67435D694D07656A49670DEDFE4051E6 /* UIView+Position.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Position.m"; sourceTree = "<group>"; };
 		6A1DCACB508AC785CAC3D26DAC628A0C /* LXMKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXMKit-dummy.m"; sourceTree = "<group>"; };
 		745E437BBE2EBCEDC3118BE8A1DF602D /* Pods-LXMKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXMKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		74AC3F5D8BEF32695CE54B282514DFFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		74AC3F5D8BEF32695CE54B282514DFFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7B5122FC99DC8138115934A653EA4006 /* Pods-LXMKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXMKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		882D6B2DBA078D2404750B7AC54A1156 /* UIView+Position.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Position.h"; sourceTree = "<group>"; };
 		8F8112A4F626007736E3AAFEF6E44F3B /* Pods-LXMKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXMKit_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,22 +81,22 @@
 		90ED30BCB409AE0B86F830F750F34AA4 /* Pods-LXMKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXMKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		946F4B380BF24FE77C8978872188B18A /* Pods-LXMKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXMKit_Tests.modulemap"; sourceTree = "<group>"; };
 		97183D819106C7F4BCE4F30BB5E16035 /* Pods-LXMKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXMKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A10CEE9BB1D00AA6D2BDA69004F369DD /* Pods-LXMKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXMKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BD6D89D3A35F8BF0F00C281795B1D3BA /* LXMKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXMKit.release.xcconfig; sourceTree = "<group>"; };
 		BF3749EDDB19B0E8892BD50403E6287E /* LXMDeviceUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXMDeviceUtil.h; sourceTree = "<group>"; };
-		C10DEDF9648AB62427C2F619AB04B556 /* Pods_LXMKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LXMKit_Example.framework; path = "Pods-LXMKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2A62CBCFFC5C66683F7B8C7EB9FD896 /* Pods_LXMKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LXMKit_Tests.framework; path = "Pods-LXMKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C10DEDF9648AB62427C2F619AB04B556 /* Pods_LXMKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXMKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A62CBCFFC5C66683F7B8C7EB9FD896 /* Pods_LXMKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXMKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5869F04803FCC94DF33123160FA695 /* Pods-LXMKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXMKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		D179237D4BC4F83150B249A8AF75192A /* Pods-LXMKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXMKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D72D004111E88B769E33C4C360E23182 /* LXMDemoListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXMDemoListViewController.m; sourceTree = "<group>"; };
 		D8EC2BC622D7CB9EEA7D952C67CF854F /* Pods-LXMKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXMKit_Example.modulemap"; sourceTree = "<group>"; };
 		DD3DD023CE392B0D6E238A22890C85E1 /* LXMDemoListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXMDemoListViewController.h; sourceTree = "<group>"; };
 		DD62EEE3A69815EF119AEB23CCC7F3E8 /* Pods-LXMKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXMKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DE15F714A304FB44984526D6F163A890 /* LXMKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LXMKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DE15F714A304FB44984526D6F163A890 /* LXMKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LXMKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E3A848D8EF61B936D3C62BB7171328AD /* Pods-LXMKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXMKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		E6C5D3C56672E7FEC62AC2ED0263C7BA /* LXMScreenSizeDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXMScreenSizeDefines.h; sourceTree = "<group>"; };
-		E76D84784DD036D94F2CE1300260583C /* LXMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LXMKit.framework; path = LXMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76D84784DD036D94F2CE1300260583C /* LXMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LXMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48506C74217E287290147E8A959A46B /* LXMKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXMKit.debug.xcconfig; sourceTree = "<group>"; };
 		F76981552D554DBE0B747FFB32B9069F /* LXMKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXMKit-Info.plist"; sourceTree = "<group>"; };
 		FC0A8379913F87684FF2F613D45F58BD /* UITableView+RegisterAndDequeue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+RegisterAndDequeue.m"; sourceTree = "<group>"; };
@@ -218,6 +222,8 @@
 				FC0A8379913F87684FF2F613D45F58BD /* UITableView+RegisterAndDequeue.m */,
 				882D6B2DBA078D2404750B7AC54A1156 /* UIView+Position.h */,
 				67435D694D07656A49670DEDFE4051E6 /* UIView+Position.m */,
+				436AA96A26806828004C0E45 /* NSArray+LXMSafe.h */,
+				436AA96B26806828004C0E45 /* NSArray+LXMSafe.m */,
 			);
 			name = Category;
 			path = LXMKit/Category;
@@ -311,6 +317,7 @@
 				868C072AD7EEF9CB2043E7BCAEBDC2DD /* LXMKit-umbrella.h in Headers */,
 				1813DF29C9FCFFC14A2AE3DFCB89268A /* LXMKit.h in Headers */,
 				4232A3ED2CA0EF586E6E0D574058C792 /* LXMScreenSizeDefines.h in Headers */,
+				436AA96C26806828004C0E45 /* NSArray+LXMSafe.h in Headers */,
 				624D345F0AA7A336C68CBC5F3C7DA7E0 /* UICollectionView+RegisterAndDequeue.h in Headers */,
 				EFC3869546BF0C032B836D2B71460CB3 /* UITableView+RegisterAndDequeue.h in Headers */,
 				EC6914A2B1365CD21958FC0E5D9E6EB6 /* UIView+Position.h in Headers */,
@@ -473,6 +480,7 @@
 				DB6C059A52E0180E7A7FC4B7873F7226 /* UICollectionView+RegisterAndDequeue.m in Sources */,
 				D365F1D30668ADCFB49A320326BDBA55 /* UITableView+RegisterAndDequeue.m in Sources */,
 				F56DC543FDFFD90054DADA3688AEA3D5 /* UIView+Position.m in Sources */,
+				436AA96D26806828004C0E45 /* NSArray+LXMSafe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -712,8 +720,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

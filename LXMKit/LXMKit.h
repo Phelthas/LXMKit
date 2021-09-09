@@ -13,6 +13,7 @@
 #import "UITableView+RegisterAndDequeue.h"
 #import "UICollectionView+RegisterAndDequeue.h"
 #import "UIView+Position.h"
+#import "NSArray+LXMSafe.h"
 
 
 #pragma mark ----------------------------------Demo----------------------------------
