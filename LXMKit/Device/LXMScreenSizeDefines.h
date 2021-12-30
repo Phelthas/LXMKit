@@ -35,9 +35,8 @@
 #define kIPadScreenSize834x1194      CGSizeMake(834, 1194)
 #define kIPadScreenSize810x1080      CGSizeMake(810, 1080)  // 3 : 4
 
-
 #pragma mark ----------------------------------现有机型尺寸----------------------------------
-// https://kapeli.com/cheat_sheets/iOS_Design.docset/Contents/Resources/Documents/index
+// https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/
 
 #define kScreenSizeiPhone4     kScreenSize320x480      //2x
 #define kScreenSizeiPhone4S    kScreenSize320x480      //2x
@@ -62,6 +61,7 @@
 #define kScreenSizeiPhoneXS               kScreenSize375x812      //3x
 #define kScreenSizeiPhone11Pro            kScreenSize375x812      //3x
 #define kScreenSizeiPhone12Mini           kScreenSize375x812      //3x
+#define kScreenSizeiPhone13Mini           kScreenSize375x812      //3x
 
 #define kScreenSizeiPhoneXR                  kScreenSize414x896      //2x
 #define kScreenSizeiPhoneXSMax               kScreenSize414x896      //3x
@@ -70,9 +70,11 @@
 
 #define kScreenSizeiPhone12                  kScreenSize390x844
 #define kScreenSizeiPhone12Pro               kScreenSize390x844
+#define kScreenSizeiPhone13                  kScreenSize390x844
+#define kScreenSizeiPhone13Pro               kScreenSize390x844
 
 #define kScreenSizeiPhone12ProMax            kScreenSize428x926
-
+#define kScreenSizeiPhone13ProMax            kScreenSize428x926
 
 
 #endif /* LXMScreenSizeDefines_h */
