@@ -29,5 +29,6 @@
 #pragma mark ----------------------------------Geometry----------------------------------
 
 #import "LXMAspectUtil.h"
+#import "LXMCGGeometry.h"
 
 #endif /* LXMKit_h */
