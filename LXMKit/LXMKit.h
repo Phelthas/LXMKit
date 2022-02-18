@@ -30,5 +30,6 @@
 
 #import "LXMAspectUtil.h"
 #import "LXMCGGeometry.h"
+#import "LXMCameraGeometry.h"
 
 #endif /* LXMKit_h */
