@@ -32,4 +32,8 @@
 #import "LXMCGGeometry.h"
 #import "LXMCameraGeometry.h"
 
+#pragma mark ----------------------------------Log----------------------------------
+
+#import "LXMLogUtil.h"
+
 #endif /* LXMKit_h */
