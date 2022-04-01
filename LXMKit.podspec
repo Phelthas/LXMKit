@@ -30,7 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'LXMKit/*', 'LXMKit/Device/**/*', 'LXMKit/Geometry/**/*','LXMKit/Demo/**/*','LXMKit/Category/**/*','LXMKit/Log/**/*'
+#  s.source_files = 'LXMKit/*', 'LXMKit/Device/**/*', 'LXMKit/Geometry/**/*','LXMKit/Demo/**/*','LXMKit/Category/**/*','LXMKit/Log/**/*'
+  s.source_files = 'LXMKit/**/*'
   
   # s.resource_bundles = {
   #   'LXMKit' => ['LXMKit/Assets/*.png']

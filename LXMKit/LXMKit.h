@@ -14,6 +14,8 @@
 #import "UICollectionView+RegisterAndDequeue.h"
 #import "UIView+Position.h"
 #import "NSArray+LXMSafe.h"
+#import "UIImage+LXMColor.h"
+
 
 
 #pragma mark ----------------------------------Demo----------------------------------
