@@ -47,7 +47,7 @@
 
 - (void)setRight:(CGFloat)right {
     CGRect frame = self.frame;
-    frame.origin.y = right - frame.size.width;
+    frame.origin.x = right - frame.size.width;
     self.frame = frame;
 }
 

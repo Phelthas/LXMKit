@@ -15,6 +15,7 @@
 #import "UIView+Position.h"
 #import "NSArray+LXMSafe.h"
 #import "UIImage+LXMColor.h"
+#import "UIColor+LXMColor.h"
 
 
 
