@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "LXMScreenSizeDefines.h"
+#import "LXMDeviceTypeDefines.h"
 
 #pragma mark ----------------------------------判断----------------------------------
 
@@ -36,6 +37,12 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LXMDeviceUtil : NSObject
+
++ (NSString *)nameForTypeString:(NSString *)typeString;
+
++ (NSString *)getCurentDeviceName;
+
++ (void)unitTest;
 
 @end
 
